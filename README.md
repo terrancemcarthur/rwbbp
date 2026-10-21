@@ -11,3 +11,7 @@ From `/workspace/rwbbp`, run `npm start`. The server listens on port 3000 (overr
 The business name is RWBBP. Product categories and descriptive copy are provisional; the requested reference website was unreachable during development. Update these with approved business information before launch.
 
 The inquiry form validates input and prepares a copyable message. It does not deliver inquiries or store submissions. Connect a delivery service or add an approved business email before launch.
+
+## Sitemap
+
+The footer links to `/sitemap.html`, which lists the site's main sections. The Node server serves `/sitemap.xml` with the homepage and sitemap page; section anchors are not separate indexed pages. The canonical public origin is `https://rwbbp.com`. The XML sitemap uses this domain by default; `SITE_URL` can override it for other deployments. Static-only hosting needs an exported XML sitemap with this domain.
