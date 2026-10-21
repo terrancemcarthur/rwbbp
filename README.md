@@ -14,7 +14,7 @@ The inquiry form validates input and prepares a copyable message. It does not de
 
 ## Sitemap
 
-The footer links to `/sitemap.html`, which lists the site's main sections. The Node server serves `/sitemap.xml` with the homepage and sitemap page; section anchors are not separate indexed pages. The canonical public origin is `https://rwbbp.com`. The XML sitemap uses this domain by default; `SITE_URL` can override it for other deployments. Static-only hosting needs an exported XML sitemap with this domain.
+The footer links to `/sitemap.html`, which lists the site’s main sections for visitors. Submit `https://rwbbp.com/sitemap.xml` to search engines. The checked-in XML file works with both static hosting and the Node server, and `robots.txt` advertises its location. It lists the homepage and sitemap page; section anchors are not separate indexed pages. If the public domain changes, update the XML URLs, robots.txt, and canonical/social metadata together.
 
 ## Apple home screen icons
 
