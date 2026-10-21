@@ -8,7 +8,7 @@ From `/workspace/rwbbp`, run `npm start`. The server listens on port 3000 (overr
 
 ## Content and contact
 
-The business name is RWBBP. Product categories and descriptive copy are provisional; the requested reference website was unreachable during development. Update these with approved business information before launch.
+The business name is RWBBP. RWBBP distributes roofing, drywall, and insulation into the United States. Website copy reflects that distributor role. Specific availability, order terms, delivery coverage, and contact details need business confirmation before launch.
 
 The inquiry form validates input and prepares a copyable message. It does not deliver inquiries or store submissions. Connect a delivery service or add an approved business email before launch.
 
